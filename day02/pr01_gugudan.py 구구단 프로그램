@@ -1,0 +1,8 @@
+## pr 01_gugudan.py 구구당 프로그램
+
+2중 for문
+
+dan = int(input('출력 최대단 수>'))
+
+for i in range(2,9+1):
+print(f'{i}단 출력')
