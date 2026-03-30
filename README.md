@@ -157,10 +157,10 @@ C/C++ 학습완료. 프로그래밍 문법 파악 중
    pip     25.0.1
 12, 기타 자료구조
     -리스트 외 튜플, 딕셔너리, 셋 등 ...
-    -각 자료구조 형태를 구분
+    -각 자료구조 형태를 구분[소스](./day03/ex13_datastruct.py)
 
 13.main
-    -파이썬은 main 함수가 필요없음
+    -파이썬은 main 함수가 필요없음[소스](./day03/ex14_main.py)
     -여러 파일중 시작점(entry point)을 지칭할 때는 사용
     - `__name__` 특수변수를 사용
 14. 가상환경(Virtual Enviromanet)
@@ -178,7 +178,7 @@ C/C++ 학습완료. 프로그래밍 문법 파악 중
     - 가상환경은 github에 올리지 말것
 
     -가산황경은 github에 올리지 말것. . gitignore에 가상환경 폴더명 추가할 것
-15.객체지향
+15.객체지향[소스1](./day03/ex15_oop.py) ~[소스2](./day03/ex18_encapsule.py)
     -c++의 객체지향, 클래스와 동일
     -접근제한자가 없음(public,privated,protected)
     -c++ 과 달리 new사용 x 변수등 제약사항에 문제 없음
@@ -186,7 +186,7 @@ C/C++ 학습완료. 프로그래밍 문법 파악 중
     -호출시에는 self를 사용x
     -파이썬 철학 : `막지 말고, 알아서 지켜라`
 
-16.예외처리
+16.예외처리 - [소스](./day03/ex20_jupyter_start.ipynb)
 -비정상 종료를 막는 기능
 -try ~except 로 구분지어 사용
 except는 여러번 쓸수있으니 하나로 통이해도 무방
@@ -217,6 +217,25 @@ except는 여러번 쓸수있으니 하나로 통이해도 무방
     -최초 한번만 팝업
     ![alt text](image-8.png)
     -l:셸 선택모드에서 시작하면 라인 번호 표시 토글
+
+-사용처
+    -웹상에서 동작하므로 많은 서비스를 지우너
+    -[Github Codespace](https://github.com/features/codespaces) - 기존 리포지토리와 연결 지원(무료인경우 한달 140시간)
+    -github codespace - 기존 리포지토리와 연결 지원
+    -[]
+
+### 데이터 분석 기초
+-분석용 기초 이론
+    -리스트,튜플,딕셔너리
+    -리스트 컴프리헨션
+    -파일 입출력
+    -Numpy
+    -Pandas
+    -Matplotlib
+    -Seaborn
+    -Folium
+    -기초 통계
+    -데이터 전처리
 
 
 
